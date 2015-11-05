@@ -1,0 +1,8 @@
+﻿
+
+CREATE TABLE [dbo].[Portfolios] (
+	[Id] UNIQUEIDENTIFIER NOT NULL,
+	CONSTRAINT [PK_Portfolios] PRIMARY KEY ([Id]),
+	[Name] NVARCHAR(MAX) NOT NULL
+)
+
